@@ -1,20 +1,48 @@
-# Tuck
+<p align="center">
+  <img src="docs/icon.png" width="128" height="128" alt="Tuck app icon">
+</p>
 
-**The notch on your Mac, put to work.** Music, colors and files, one click away.
+<h1 align="center">Tuck</h1>
 
-Tuck turns the notch into a small island that opens when you click it and tucks away when you leave. On screens without a notch, like an external monitor, it shows a small circle at the top of the screen that opens like a droplet, with every feature intact.
+<p align="center"><b>The notch on your Mac that's ready to assist when you need.</b><br>
+An app that makes your notch more useful.</p>
 
-**[Download Tuck for Mac](https://github.com/sansirk-design/Tuck/releases/latest/download/Tuck.dmg)** · Version 1.0 · 1.2 MB · Apple Silicon (M series chips), macOS 14 or later
+<p align="center">
+  <a href="https://github.com/sansirk-design/Tuck/releases/latest/download/Tuck.dmg"><b>⬇ Download Tuck</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://sansirk-design.github.io/#case-tuck">See it in use</a>
+</p>
 
-## What it does
+<p align="center">
+  <a href="https://sansirk-design.github.io/#case-tuck"><img src="docs/preview.jpg" width="720" alt="Tuck: the notch opened into a music player, with a color picker, PDF maker and background remover below it"></a>
+</p>
 
-- **Music with live lyrics.** Follows whatever is playing on your Mac (the same source Control Center uses). Synced lyrics, scrubbing, ±10 seconds, loop and volume.
-- **Color picker.** Pick any pixel on screen with ⌃⌥C. HEX, RGB, HSL and OKLCH, copied in one click. Keeps your last 12 colors.
-- **Files to PDF.** Drop images and documents onto the notch, keep adding, then make one PDF on your Desktop.
-- **Remove background, convert, AirDrop.** Drop a photo to cut out the subject on device, convert between JPG, PNG, HEIC, AVIF and TIFF, or AirDrop it.
-- **Every screen gets an island.** The notch on a MacBook, a small circle on any other display.
+| | |
+|---|---|
+| **Version** | 1.0 |
+| **Size** | ~1.2 MB |
+| **Requirements** | Apple Silicon (M series chips), macOS 14 Sonoma or later |
 
-Hovering only peeks; a click opens. Tuck idles at about 14 MB of memory and 0% CPU.
+## Features
+
+| | |
+|---|---|
+| <img src="docs/peek.jpg" alt="Tuck peeking from the notch"> | **Peek**<br>Bring the cursor to the notch and the island peeks instantly: album art on one side, a live sound indicator on the other. Move away and it tucks back. Nothing opens until you click. |
+| <img src="docs/music.jpg" alt="Tuck music player with live lyrics"> | **Control your music**<br>Follows whatever is playing on your Mac, the same source Control Center uses. Previous, play and next, with ten seconds back, loop and ten seconds forward beneath. Synced lyrics run line by line and keep up even when you scrub. |
+| <img src="docs/color.jpg" alt="Tuck color picker"> | **Color picker**<br>Pick any pixel on screen with a loupe, or press ⌃⌥C from anywhere. The value is copied straight away in HEX, RGB, HSL or OKLCH, and the last 12 colors stay one click away. |
+| <img src="docs/drop.jpg" alt="Dragging a file onto Tuck shows four drop targets"> | **Drop things into Tuck**<br>Drag any file toward the notch and a 2×2 grid opens: AirDrop, Make PDF, Remove background and Convert image. The target lights up as you hover it, so you always know what will happen before you let go. |
+| <img src="docs/pdf.jpg" alt="Tuck PDF tray with three files and Ready to convert"> | **Need PDF conversion?**<br>Dropped files wait in a small tray that stays open. Keep adding, then press "Ready to convert?" and one PDF lands on your Desktop. |
+| <img src="docs/cutout.jpg" alt="Tuck after removing a photo's background"> | **Remove the background**<br>Drop a photo and the subject is cut out on your Mac, no upload. The cut-out is saved next to the original, and a small pill confirms it. Images also convert between JPG, PNG, HEIC, AVIF and TIFF. |
+
+### No notch? Tuck still has a home.
+
+On a screen without a notch cutout, like an external monitor or an older Mac, Tuck shows a small punch-hole circle at the top of the screen. It peeks when you get close and opens like a droplet, with every feature intact. That's a feature, not a workaround.
+
+> Tuck can even detect dual displays and adjust depending on whether a notch cutout is present or not.
+
+### Light enough to forget
+
+Hovering only peeks; only a deliberate click, tap or ⌃⌥N opens it. At rest Tuck uses about 14 MB of memory and 0% CPU, with no Dock icon.
 
 ## Install
 
@@ -24,7 +52,7 @@ Hovering only peeks; a click opens. Tuck idles at about 14 MB of memory and 0% C
 
 Tuck has no Dock icon: click the notch to open it, scroll inside it to switch features, right-click it for settings.
 
-### Seeing a message instead? Find yours below.
+### Facing difficulty? Don't worry, here's some help.
 
 Tuck is free and isn't signed through a paid Apple developer account, so macOS may block it the first time. These steps are only needed once.
 
@@ -40,7 +68,7 @@ Tuck is free and isn't signed through a paid Apple developer account, so macOS m
 <details>
 <summary><b>"Tuck is damaged and can't be opened."</b></summary>
 
-Tuck isn't damaged; this is the same block with scarier wording.
+It isn't damaged; this is the same block with scarier wording.
 
 1. Click **Cancel** (not *Move to Trash*).
 2. Open **Terminal** (Applications → Utilities → Terminal).
@@ -56,21 +84,16 @@ xattr -dr com.apple.quarantine /Applications/Tuck.app && open /Applications/Tuck
 
 1. Click **OK**.
 2. In Applications, **right-click Tuck → Open**, then click **Open**.
+3. No Open button? Use the System Settings steps above.
 </details>
 
 <details>
-<summary><b>"…isn't supported on this type of Mac"</b></summary>
+<summary><b>"…isn't supported on this type of Mac" or nothing happens</b></summary>
 
-Tuck needs an Apple Silicon Mac (M1 or newer). It doesn't run on Intel Macs.
+Tuck needs an Apple Silicon Mac (M series chips); it doesn't run on Intel Macs. If it opened but you can't see it, move your mouse to the notch (or the small dot at the top of an external screen) and click.
 </details>
 
-<details>
-<summary><b>Nothing seems to happen</b></summary>
-
-Tuck lives in the notch, not the Dock. Move your mouse to the notch (or the small dot at the top of an external screen) and click.
-</details>
-
-## Permissions Tuck asks for
+## Permissions
 
 On first launch Tuck asks for access to three folders, once, and says why:
 
@@ -86,4 +109,4 @@ Quit Tuck (right-click the notch → Settings → Quit Tuck), then drag it from 
 
 ---
 
-Made by Sanjan Sirkar · [Portfolio](https://sansirk-design.github.io/#case-tuck)
+Made by Sanjan Sirkar · [Read the full case study](https://sansirk-design.github.io/#case-tuck)
