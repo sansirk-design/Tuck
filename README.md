@@ -4,7 +4,7 @@
 
 Tuck turns the notch into a small island that opens when you click it and tucks away when you leave. On screens without a notch, like an external monitor, it shows a small circle at the top of the screen that opens like a droplet, with every feature intact.
 
-**[Download Tuck for Mac](https://github.com/sansirk-design/Tuck/releases/latest/download/Tuck.dmg)** · Version 0.1.0 · 1.2 MB · Apple Silicon, macOS 14 or later
+**[Download Tuck for Mac](https://github.com/sansirk-design/Tuck/releases/latest/download/Tuck.dmg)** · Version 1.0 · 1.2 MB · Apple Silicon (M series chips), macOS 14 or later
 
 ## What it does
 
